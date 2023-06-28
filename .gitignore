@@ -1,0 +1,16 @@
+node_modules/
+out-tsc/
+coverage/
+storybook-static/
+build-storybook.log
+.eslintcache
+
+.idea
+.DS_Store
+*.code-workspace
+yarn-error.log
+/dist_assets/
+/dist/
+/build/
+
+.npmrc
