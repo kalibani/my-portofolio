@@ -1,7 +1,7 @@
 import React from "react";
 
 function Nav() {
-  return <div>Nav</div>;
+  return <section>Nav</section>;
 }
 
 export default Nav;

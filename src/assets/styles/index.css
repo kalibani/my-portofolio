@@ -1,13 +1,76 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  body {
+    @apply bg-background text-[white] leading-[1.7] 
+    bg-[url('./src/assets/images/bg-texture.png')];
+  }
+
+  h1,
+  h2,
+  h3,
+  h5,
+  h5 {
+    font-weight: 500;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  section {
+    @apply tablet:mt-24 laptop:mt-32;
+  }
+
+  section > h2,
+  section > h5 {
+    @apply text-center text-custom-light;
+  }
+
+  section > h2 {
+    @apply mb-8 text-primary tablet:mb-[3rem];
+  }
+
+  a {
+    @apply text-primary transition delay-150 duration-300 ease-in-out hover:text-[white];
+  }
+
+  .btn {
+    @apply w-max inline-block text-primary py-3 px-5 rounded-md cursor-pointer border border-solid border-primary transition delay-150 duration-300 ease-in-out hover:bg-[white] hover:text-background hover:border-transparent;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-background;
+  }
+
+  img {
+    @apply block w-full object-cover;
+  }
+}
+
+@layer components {
+  .container {
+    @apply w-[90%] tablet:w-[86%] laptop:w-9/12 laptop:mx-auto;
+  }
 }
