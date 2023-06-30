@@ -24,7 +24,7 @@
 
   body {
     @apply bg-background text-[white] leading-[1.7] 
-    bg-[url('./src/assets/images/bg-texture.png')];
+    bg-[url('../images/bg-texture.png')];
   }
 
   h1,
