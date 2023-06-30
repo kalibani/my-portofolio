@@ -13,7 +13,7 @@ function Header() {
         <CTA />
         <HeaderSocials />
 
-        <div className=" bg-gradient-to-br from-primary to-[transparent] w-80 h-[30rem] absolute left-[calc(50%-10rem)] tablet:left-[calc(50%-11rem)] mt-16 rounded-t-[12rem] rounded-b-[0] overflow-hidden pt-20 px-6 pb-6">
+        <div className="bg-gradient-to-br from-primary to-[transparent] w-80 h-[30rem] absolute left-[calc(50%-10rem)] tablet:left-[calc(50%-11rem)] mt-16 rounded-t-[12rem] rounded-b-[0] overflow-hidden pt-20 px-6 pb-6">
           <img src={ME} alt="me" />
         </div>
 
