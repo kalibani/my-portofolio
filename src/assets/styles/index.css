@@ -1,7 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 @layer base {
   * {
@@ -56,14 +56,6 @@
     @apply text-primary transition delay-150 duration-300 ease-in-out hover:text-[white];
   }
 
-  .btn {
-    @apply w-max inline-block text-primary py-3 px-5 rounded-md cursor-pointer border border-solid border-primary transition delay-150 duration-300 ease-in-out hover:bg-[white] hover:text-background hover:border-transparent;
-  }
-
-  .btn-primary {
-    @apply bg-primary text-background;
-  }
-
   img {
     @apply block w-full object-cover;
   }
@@ -72,5 +64,13 @@
 @layer components {
   .container {
     @apply w-[90%] tablet:w-[86%] laptop:w-9/12 laptop:mx-auto;
+  }
+
+  .btn {
+    @apply w-max inline-block text-primary py-3 px-5 rounded-md cursor-pointer border border-solid border-primary transition delay-150 duration-300 ease-in-out hover:bg-[white] hover:text-background hover:border-opacity-0;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-background;
   }
 }
