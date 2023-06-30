@@ -7,7 +7,7 @@ import ME from "../assets/images/me-about.png";
 function About() {
   return (
     <section id="about">
-      <h5 className="pt-4">Get To Know</h5>
+      <h5>Get To Know</h5>
       <h2>About Me</h2>
 
       <div className="container grid laptop:grid-cols-[35%,50%] laptop:gap-[15%] tablet:grid-cols-[1fr] tablet:gap-0 tablet:m-auto">
@@ -40,7 +40,7 @@ function About() {
             </article>
           </div>
 
-          <p className="text-sm my-6 mx-0 text-custom-light tablet:m-[1rem,0,1.5rem] laptop:mt-8 laptop:mb-10 laptop:mx-0">
+          <p className="text-sm my-6 mx-0 text-custom-light tablet:m-[1rem,0,1.5rem] laptop:mt-8 laptop:mb-10 laptop:mx-0 text-left">
             HI, I'm from Indonesia and currently working for an international
             fintech company based in Dubai. I have 5 years experience as a
             frontend software engineer. My skills include, but are not limited
@@ -51,7 +51,7 @@ function About() {
             stakeholders.
           </p>
 
-          <a href="#contact" className="btn btn-primary laptop:float-left">
+          <a href="#contact" className="btn btn-primary float-left">
             Hire Me
           </a>
         </div>
