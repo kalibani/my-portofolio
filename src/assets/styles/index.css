@@ -40,7 +40,7 @@
   }
 
   section {
-    @apply tablet:mt-24 laptop:mt-32;
+    @apply tablet:mt-24 laptop:mt-32 h-screen;
   }
 
   section > h2,
@@ -53,7 +53,7 @@
   }
 
   a {
-    @apply text-primary transition delay-150 duration-300 ease-in-out hover:text-[white];
+    @apply text-primary transition delay-150 duration-300 ease-in-out hover:text-[white] inline-block;
   }
 
   img {
