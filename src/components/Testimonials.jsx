@@ -1,4 +1,3 @@
-import React from "react";
 // import Swiper core and required modules
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -26,7 +25,7 @@ function Testimonials() {
             key={testimonial.id}
             className=" bg-background-variant text-center p-8 rounded-[2rem] select-none"
           >
-            <div className="client-avatar w-8 aspect-square overflow-hidden rounded-[50%] mt-0 mx-auto mb-4 border-[0.4rem] border-solid border-primary-variant">
+            <div className="w-8 aspect-square overflow-hidden rounded-[50%] mt-0 mx-auto mb-4 border-[0.4rem] border-solid border-primary-variant">
               <img
                 src={testimonial.avatar}
                 alt={`Avatar-${testimonial.avatar}`}

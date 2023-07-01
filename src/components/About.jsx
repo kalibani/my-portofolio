@@ -1,4 +1,3 @@
-import React from "react";
 import { FaAward, FaCode } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
 

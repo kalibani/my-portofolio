@@ -12,6 +12,11 @@ import Nobal from "../assets/images/nobal.jpeg";
 import Deepak from "../assets/images/deepak.jpeg";
 import Andryan from "../assets/images/Andryan.jpeg";
 
+// icons
+import { MdOutlineEmail } from "react-icons/md";
+import { RiMessengerLine } from "react-icons/ri";
+import { BsWhatsapp } from "react-icons/bs";
+
 export const skills = [
   {
     id: 1,
@@ -179,7 +184,7 @@ export const testimonials = [
   {
     id: 2,
     avatar: Nobal,
-    name: "Nobal Mohan - Director of Engineering Frontend",
+    name: "Nobal Mohan - Director of Engineering at Atlan",
     linkedInProfile: "https://www.linkedin.com/in/nobal-mohan/",
     testimonial: `Kautzar's attention to detail, dedication, and passion shine through in every project he undertake. His expertise and skill set are unmatched, making him a valuable asset to FE team in our organization. I have witnessed firsthand how Kautzar's contributions have positively impacted the success of various projects. If you are looking for someone who consistently delivers outstanding results, look no further than Kautzar`,
   },

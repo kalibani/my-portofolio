@@ -1,4 +1,3 @@
-import React from "react";
 import { portfolios } from "../constant";
 
 function Portfolio() {

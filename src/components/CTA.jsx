@@ -1,4 +1,3 @@
-import React from "react";
 import CV from "../assets/files/CV.pdf";
 
 function CTA() {

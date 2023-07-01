@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
   Nav,
   About,
@@ -8,19 +7,15 @@ import {
   Header,
   Portfolio,
   Testimonials,
-  Services,
 } from "../components";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Header />
       <Nav />
       <About />
       <Experience />
-      {/* <Services /> */}
       <Portfolio />
       <Testimonials />
       <Contact />
