@@ -11,7 +11,7 @@ function Nav() {
       <a
         href="#"
         className={`bg-[transparent] p-2 rounded-[50%] flex text-custom-light text-base hover:bg-[rgba(0,0,0,0.2)] ${
-          isActive === "#" ? " bg-background text-[white]" : ""
+          isActive === "#" ? " bg-primary text-background" : ""
         }`}
         onClick={() => setIsActive("#")}
       >
@@ -20,7 +20,7 @@ function Nav() {
       <a
         href="#about"
         className={`bg-[transparent] p-2 rounded-[50%] flex text-custom-light text-base hover:bg-[rgba(0,0,0,0.2)] ${
-          isActive === "#about" ? "bg-background text-[white]" : ""
+          isActive === "#about" ? "bg-primary text-background" : ""
         }`}
         onClick={() => setIsActive("#about")}
       >
@@ -29,7 +29,7 @@ function Nav() {
       <a
         href="#experiences"
         className={`bg-[transparent] p-2 rounded-[50%] flex text-custom-light text-base hover:bg-[rgba(0,0,0,0.2)] ${
-          isActive === "experiences" ? "bg-background text-[white]" : ""
+          isActive === "#experiences" ? "bg-primary text-background" : ""
         }`}
         onClick={() => setIsActive("#experiences")}
       >
@@ -38,7 +38,7 @@ function Nav() {
       <a
         href="#portfolio"
         className={`bg-[transparent] p-2 rounded-[50%] flex text-custom-light text-base hover:bg-[rgba(0,0,0,0.2)] ${
-          isActive === "#portfolio" ? "bg-background text-[white]" : ""
+          isActive === "#portfolio" ? "bg-primary text-background" : ""
         }`}
         onClick={() => setIsActive("#portfolio")}
       >
@@ -47,7 +47,7 @@ function Nav() {
       <a
         href="#contact"
         className={`bg-[transparent] p-2 rounded-[50%] flex text-custom-light text-base hover:bg-[rgba(0,0,0,0.2)] ${
-          isActive === "#contact" ? "bg-background text-[white]" : ""
+          isActive === "#contact" ? "bg-primary text-background" : ""
         }`}
         onClick={() => setIsActive("#contact")}
       >

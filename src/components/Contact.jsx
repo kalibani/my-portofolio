@@ -43,7 +43,10 @@ function Contact() {
         (error) => {
           submitNotification(error?.text);
         }
-      );
+      )
+      .finally(() => {
+        e.target.reset();
+      });
   };
   return (
     <section id="contact">

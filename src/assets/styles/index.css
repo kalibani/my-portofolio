@@ -64,6 +64,10 @@
   textarea {
     @apply w-full p-6 rounded-lg bg-[transparent] border-[2px] border-solid border-primary-variant resize-none;
   }
+
+  footer a {
+    @apply text-background;
+  }
 }
 
 @layer components {
