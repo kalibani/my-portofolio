@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
@@ -6,6 +6,11 @@ import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 
 function Contact() {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const isMobile = window.innerWidth <= 640;
+    setIsMobile(isMobile);
+  }, []);
   const form = useRef();
   const submitNotification = (error = "", toastHandler = toast) => {
     if (error) {
@@ -84,7 +89,11 @@ function Contact() {
             <h4>Whatsapp</h4>
             <h5>+6287822946362</h5>
             <a
-              href="https://web.whatsapp.com/send?phone=+6287822946362"
+              href={
+                isMobile
+                  ? "https://api.whatsapp.com/send?phone=+6287822946362"
+                  : "https://web.whatsapp.com/send?phone=+6287822946362"
+              }
               target="_blank"
               className="mt-3 inline-block text-xs"
             >
