@@ -9,7 +9,6 @@ function About() {
     <section id="about">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
-
       <div className="container grid laptop:grid-cols-[35%,50%] laptop:gap-[15%] tablet:grid-cols-[1fr] tablet:gap-0 tablet:m-auto">
         <div className="w-[65%] mt-[0] mx-auto mb-12 tablet:w-1/2 tablet:mt-8 tablet:mx-auto tablet:mb-16 laptop:w-full laptop:mt-0 aspect-square rounded-[2rem] bg-gradient-to-tr from-[transparent] via-primary to-[transparent] grid place-items-center">
           <div className="rounded-[2rem] overflow-hidden rotate-[10deg] h-[18rem] tablet:h-80 laptop:h-96 transition delay-150 duration-300 ease-in-out hover:rotate-0">

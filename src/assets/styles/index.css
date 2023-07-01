@@ -40,7 +40,7 @@
   }
 
   section {
-    @apply pt-10 tablet:mt-24 tablet:pt-16 laptop:pt-16 laptop:h-screen;
+    @apply pt-10 tablet:pt-16 laptop:pt-16;
   }
 
   section > h2,
