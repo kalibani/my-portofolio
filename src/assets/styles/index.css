@@ -73,4 +73,9 @@
   .btn-primary {
     @apply bg-primary text-background;
   }
+
+  /* custom swiper pagination style */
+  .container > .swiper-pagination-clickable .swiper-pagination-bullet {
+    @apply bg-primary;
+  }
 }

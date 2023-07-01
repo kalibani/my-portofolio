@@ -1,71 +1,7 @@
 import React from "react";
-import portfolio1 from "../assets/images/permatanet-1.png";
-import portfolio2 from "../assets/images/atlan.png";
-import portfolio3 from "../assets/images/postpay.png";
-import portfolio4 from "../assets/images/crowdfunding.png";
-import portfolio5 from "../assets/images/opensea.png";
-import portfolio6 from "../assets/images/weirdos.png";
+import { portfolios } from "../constant";
 
 function Portfolio() {
-  const portfolios = [
-    {
-      id: 1,
-      title: "PermataNet - Internet Banking",
-      githubLink: "https://www.permatanet.com/",
-      liveDemoLink:
-        "https://drive.google.com/file/d/1xpWQe9LmSiax-d2_covtetdDytkooY2Q/view?usp=drive_link",
-      imageLink: portfolio1,
-      altImage: "portfolio1",
-      isPrivate: true,
-    },
-    {
-      id: 2,
-      title: "Atlan - Third Gen Data Catalog",
-      githubLink: "https://atlan.com/",
-      liveDemoLink:
-        "https://drive.google.com/file/d/1JhYc23oQ7wRJudu2e0zShn_pawDWVg0g/view?usp=sharing",
-      imageLink: portfolio2,
-      altImage: "portfolio2",
-      isPrivate: true,
-    },
-    {
-      id: 3,
-      title: "Postpay - Pay Later Apps",
-      githubLink: "https://www.postpay.io/",
-      liveDemoLink:
-        "https://drive.google.com/file/d/1A6y7Bme0ERINzmG7zBTHKO5mbEgjcsyX/view?usp=sharing",
-      imageLink: portfolio3,
-      altImage: "portfolio3",
-      isPrivate: true,
-    },
-    {
-      id: 4,
-      title: "Crowdfunding App - Web 3.0",
-      githubLink: "https://github.com/kalibani/CrowdFunding",
-      liveDemoLink: "https://crowd-funding-kautzar.vercel.app/",
-      imageLink: portfolio4,
-      altImage: "portfolio4",
-      isPrivate: false,
-    },
-    {
-      id: 5,
-      title: "OpenSea Clone - Web 3.0",
-      githubLink: "https://github.com/kalibani/OpenSea-Blockchain",
-      liveDemoLink: "https://open-sea-blockchain-kautzar.vercel.app/",
-      imageLink: portfolio5,
-      altImage: "portfolio5",
-      isPrivate: false,
-    },
-    {
-      id: 6,
-      title: "The Weirdos NFT - (coming soon)",
-      githubLink: "github.com",
-      liveDemoLink: "github.com",
-      imageLink: portfolio6,
-      altImage: "portfolio6",
-      isPrivate: false,
-    },
-  ];
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
