@@ -4,7 +4,7 @@ import portfolio2 from "../assets/images/atlan.png";
 import portfolio3 from "../assets/images/postpay.png";
 import portfolio4 from "../assets/images/crowdfunding.png";
 import portfolio5 from "../assets/images/opensea.png";
-import portfolio6 from "../assets/images/weirdos.png";
+import portfolio6 from "../assets/images/twitter-lens.png";
 
 // avatar
 import Avatar from "../assets/images/andika.jpeg";
@@ -163,9 +163,9 @@ export const portfolios = [
   },
   {
     id: 6,
-    title: "The Weirdos NFT - (coming soon)",
-    githubLink: "github.com",
-    liveDemoLink: "github.com",
+    title: "Twitter clone using Lens Protocol - (coming soon)",
+    githubLink: "https://github.com/kalibani/twitter-lens",
+    liveDemoLink: "https://github.com/kalibani/twitter-lens",
     imageLink: portfolio6,
     altImage: "portfolio6",
     isPrivate: false,
