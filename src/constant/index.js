@@ -5,17 +5,14 @@ import portfolio3 from "../assets/images/postpay.png";
 import portfolio4 from "../assets/images/crowdfunding.png";
 import portfolio5 from "../assets/images/opensea.png";
 import portfolio6 from "../assets/images/twitter-lens.png";
+import portfolio7 from "../assets/images/design-system.png";
+import portfolio8 from "../assets/images/genio.png";
 
 // avatar
 import Avatar from "../assets/images/andika.jpeg";
 import Nobal from "../assets/images/nobal.jpeg";
 import Deepak from "../assets/images/deepak.jpeg";
 import Andryan from "../assets/images/Andryan.jpeg";
-
-// icons
-import { MdOutlineEmail } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
-import { BsWhatsapp } from "react-icons/bs";
 
 export const skills = [
   {
@@ -168,6 +165,24 @@ export const portfolios = [
     liveDemoLink: "https://github.com/kalibani/twitter-lens",
     imageLink: portfolio6,
     altImage: "portfolio6",
+    isPrivate: false,
+  },
+  {
+    id: 7,
+    title: "Design System",
+    githubLink: "https://github.com/kalibani/react-design-system",
+    liveDemoLink: "https://react-design-system-kalibani.vercel.app/",
+    imageLink: portfolio7,
+    altImage: "portfolio7",
+    isPrivate: false,
+  },
+  {
+    id: 8,
+    title: "AI Saas Platform",
+    githubLink: "https://github.com/kalibani/genio",
+    liveDemoLink: "https://genio-ne1o.vercel.app/",
+    imageLink: portfolio8,
+    altImage: "portfolio8",
     isPrivate: false,
   },
 ];
