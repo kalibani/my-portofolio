@@ -57,7 +57,7 @@ export const skills = [
       {
         id: 8,
         skillName: "Typescript",
-        skillExpertise: "Intermediate",
+        skillExpertise: "Experienced",
       },
     ],
   },
