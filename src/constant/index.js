@@ -180,7 +180,7 @@ export const portfolios = [
     id: 8,
     title: "AI Saas Platform",
     githubLink: "https://github.com/kalibani/genio",
-    liveDemoLink: "https://genio-ne1o.vercel.app/",
+    liveDemoLink: "https://genio-app.kautzaralibani.com/",
     imageLink: portfolio8,
     altImage: "portfolio8",
     isPrivate: false,
