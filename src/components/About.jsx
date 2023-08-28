@@ -39,13 +39,17 @@ function About() {
           </div>
 
           <p className="text-sm my-6 mx-0 text-custom-light tablet:m-[1rem,0,1.5rem] laptop:mt-8 laptop:mb-10 laptop:mx-0 text-left">
-            HI, I'm from Indonesia and currently working for an international
-            fintech company based in Dubai. I have 5 years experience as a
-            frontend software engineer. My skills include, but are not limited
-            to: React-React Native-Redux, Vue-Vuex, Web 3.0 Methodologies,
-            Node.js and have experience in web & mobile hybrid development. I am
-            a perseverance programmer, love to learn, explore and implement new
-            tech. Also, have a good communication between the team and
+            Hello there, My name is Kautzar and I am currently working for an
+            international tech company based in India. I have 5 years experience
+            as a frontend software engineer. Including 2 years working as a
+            Frontend Lead for an IT consultant company. I have a BS degree in
+            Computer Science and also have joined an intensive programming
+            bootcamp for 6 months which gave me a comprehensive view about what
+            I can do as a programmer. My skills include, but are not limited to:
+            React-Next-Redux, React Native, Vue-Nuxt-Vuex, Web 3.0, Node.js and
+            have experience in web & mobile hybrid development. I am a
+            perseverance programmer, love to learn, explore and implement new
+            tech. Also, have good communication between the team and
             stakeholders.
           </p>
 

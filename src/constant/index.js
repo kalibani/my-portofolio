@@ -31,7 +31,7 @@ export const skills = [
       },
       {
         id: 3,
-        skillName: "Javascript",
+        skillName: "Javascript/Typescript",
         skillExpertise: "Experienced",
       },
       {
@@ -56,7 +56,7 @@ export const skills = [
       },
       {
         id: 8,
-        skillName: "Typescript",
+        skillName: "Next / Nuxt Js",
         skillExpertise: "Experienced",
       },
     ],
@@ -132,13 +132,12 @@ export const portfolios = [
   },
   {
     id: 3,
-    title: "Postpay - Pay Later Apps",
-    githubLink: "https://www.postpay.io/",
-    liveDemoLink:
-      "https://drive.google.com/file/d/1A6y7Bme0ERINzmG7zBTHKO5mbEgjcsyX/view?usp=sharing",
-    imageLink: portfolio3,
-    altImage: "portfolio3",
-    isPrivate: true,
+    title: "Genio - AI Saas Platform",
+    githubLink: "https://github.com/kalibani/genio",
+    liveDemoLink: "https://genio-app.kautzaralibani.com/",
+    imageLink: portfolio8,
+    altImage: "portfolio8",
+    isPrivate: false,
   },
   {
     id: 4,
@@ -174,15 +173,6 @@ export const portfolios = [
     liveDemoLink: "https://react-design-system-kalibani.vercel.app/",
     imageLink: portfolio7,
     altImage: "portfolio7",
-    isPrivate: false,
-  },
-  {
-    id: 8,
-    title: "AI Saas Platform",
-    githubLink: "https://github.com/kalibani/genio",
-    liveDemoLink: "https://genio-app.kautzaralibani.com/",
-    imageLink: portfolio8,
-    altImage: "portfolio8",
     isPrivate: false,
   },
 ];
