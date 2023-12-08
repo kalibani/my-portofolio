@@ -67,26 +67,31 @@ export const skills = [
     listSkill: [
       {
         id: 1,
-        skillName: "Langchain Framework",
+        skillName: "OPENAI Text Generation Models",
         skillExpertise: "Experienced",
       },
       {
         id: 2,
-        skillName: "OPENAI Conversation Model",
+        skillName: "OPENAI Embeddings",
         skillExpertise: "Experienced",
       },
       {
         id: 3,
-        skillName: "OPENAI Assistant Model",
+        skillName: "OPENAI Assistants Models",
         skillExpertise: "Experienced",
       },
       {
         id: 4,
+        skillName: "Langchain Framework",
+        skillExpertise: "Experienced",
+      },
+      {
+        id: 5,
         skillName: "Pinecone - Vector DB",
         skillExpertise: "Intermediate",
       },
       {
-        id: 5,
+        id: 6,
         skillName: "Replicate API",
         skillExpertise: "Intermediate",
       },
@@ -97,6 +102,15 @@ export const skills = [
 export const portfolios = [
   {
     id: 1,
+    title: "Genio - AI Saas Platform",
+    githubLink: "https://github.com/kalibani/genio",
+    liveDemoLink: "https://genio-app.kautzaralibani.com/",
+    imageLink: portfolio8,
+    altImage: "portfolio8",
+    isPrivate: false,
+  },
+  {
+    id: 2,
     title: "PermataNet - Internet Banking",
     githubLink: "https://www.permatanet.com/",
     liveDemoLink:
@@ -106,7 +120,7 @@ export const portfolios = [
     isPrivate: true,
   },
   {
-    id: 2,
+    id: 3,
     title: "Atlan - Third Gen Data Catalog",
     githubLink: "https://atlan.com/",
     liveDemoLink:
@@ -114,15 +128,6 @@ export const portfolios = [
     imageLink: portfolio2,
     altImage: "portfolio2",
     isPrivate: true,
-  },
-  {
-    id: 3,
-    title: "Genio - AI Saas Platform",
-    githubLink: "https://github.com/kalibani/genio",
-    liveDemoLink: "https://genio-app.kautzaralibani.com/",
-    imageLink: portfolio8,
-    altImage: "portfolio8",
-    isPrivate: false,
   },
   {
     id: 4,
