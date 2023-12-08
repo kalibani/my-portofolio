@@ -63,46 +63,31 @@ export const skills = [
   },
   {
     id: 2,
-    skillType: "WEB 3.0 Development",
+    skillType: "AI Technology",
     listSkill: [
       {
         id: 1,
-        skillName: "Solidity",
-        skillExpertise: "Intermediate",
+        skillName: "Langchain Framework",
+        skillExpertise: "Experienced",
       },
       {
         id: 2,
-        skillName: "Thirdweb SDK",
+        skillName: "OPENAI Conversation Model",
         skillExpertise: "Experienced",
       },
       {
         id: 3,
-        skillName: "Ether JS",
+        skillName: "OPENAI Assistant Model",
         skillExpertise: "Experienced",
       },
       {
         id: 4,
-        skillName: "Hardhat",
+        skillName: "Pinecone - Vector DB",
         skillExpertise: "Intermediate",
       },
       {
         id: 5,
-        skillName: "NFTs",
-        skillExpertise: "Intermediate",
-      },
-      {
-        id: 6,
-        skillName: "Blockchain",
-        skillExpertise: "Intermediate",
-      },
-      {
-        id: 7,
-        skillName: "Ethereum",
-        skillExpertise: "Intermediate",
-      },
-      {
-        id: 8,
-        skillName: "Metamask",
+        skillName: "Replicate API",
         skillExpertise: "Intermediate",
       },
     ],

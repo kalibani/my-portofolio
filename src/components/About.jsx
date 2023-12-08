@@ -46,11 +46,11 @@ function About() {
             Science and also have joined an intensive programming bootcamp for 6
             months which gave me a comprehensive view about what I can do as a
             programmer. My skills include, but are not limited to:
-            React-Next-Redux, React Native, Vue-Nuxt-Vuex, Web 3.0, Node.js and
-            have experience in web & mobile hybrid development. I am a
-            perseverance programmer, love to learn, explore and implement new
-            tech. Also, have good communication between the team and
-            stakeholders.
+            React-Next-Redux, React Native, Vue-Nuxt-Vuex, AI Technology
+            Integration, Node.js and have experience in web & mobile hybrid
+            development. I am a perseverance programmer, love to learn, explore
+            and implement new tech. Also, have good communication between the
+            team and stakeholders.
           </p>
 
           <a href="#contact" className="btn btn-primary float-left">
