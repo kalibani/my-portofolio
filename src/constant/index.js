@@ -7,6 +7,7 @@ import portfolio5 from "../assets/images/opensea.png";
 import portfolio6 from "../assets/images/twitter-lens.png";
 import portfolio7 from "../assets/images/design-system.png";
 import portfolio8 from "../assets/images/genio.png";
+import portfolio9 from "../assets/images/HireFazz-light.png";
 
 // avatar
 import Avatar from "../assets/images/andika.jpeg";
@@ -102,11 +103,11 @@ export const skills = [
 export const portfolios = [
   {
     id: 1,
-    title: "Genio - AI Saas Platform",
-    githubLink: "https://github.com/kalibani/genio",
-    liveDemoLink: "https://genio-app.kautzaralibani.com/",
-    imageLink: portfolio8,
-    altImage: "portfolio8",
+    title: "HireFazz - AI-Powered Hiring Platform",
+    githubLink: "https://github.com/kalibani/HireFazz",
+    liveDemoLink: "https://www.hirefazz.com",
+    imageLink: portfolio9,
+    altImage: "portfolio9",
     isPrivate: false,
   },
   {

@@ -53,6 +53,7 @@ function Contact() {
         e.target.reset();
       });
   };
+
   return (
     <section id="contact">
       <Toaster position="top-right" reverseOrder={false} />
