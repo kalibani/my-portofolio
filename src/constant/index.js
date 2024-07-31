@@ -103,7 +103,7 @@ export const skills = [
 export const portfolios = [
   {
     id: 1,
-    title: "HireFazz - AI-Powered Hiring Platform",
+    title: "HireFazz - AI Hiring Platform",
     githubLink: "https://github.com/kalibani/HireFazz",
     liveDemoLink: "https://www.hirefazz.com",
     imageLink: portfolio9,
@@ -146,15 +146,6 @@ export const portfolios = [
     liveDemoLink: "https://open-sea-blockchain-kautzar.vercel.app/",
     imageLink: portfolio5,
     altImage: "portfolio5",
-    isPrivate: false,
-  },
-  {
-    id: 6,
-    title: "Twitter clone using Lens Protocol - (coming soon)",
-    githubLink: "https://github.com/kalibani/twitter-lens",
-    liveDemoLink: "https://github.com/kalibani/twitter-lens",
-    imageLink: portfolio6,
-    altImage: "portfolio6",
     isPrivate: false,
   },
   {

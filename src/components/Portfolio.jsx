@@ -11,7 +11,7 @@ function Portfolio() {
             key={portfolio.id}
             className="bg-background-variant p-5 rounded-[2rem] border-[1px] border-solid border-[transparent] transition delay-150 duration-300 ease-in-out hover:border-primary-variant hover:bg-[transparent]"
           >
-            <div className=" rounded-3xl overflow-hidden">
+            <div className=" rounded-3xl overflow-hidden h-56 grid place-content-center">
               <img src={portfolio.imageLink} alt={portfolio.altImage} />
             </div>
             <h3 className="mt-[1.2rem] mx-0 mb-8">{portfolio.title}</h3>
